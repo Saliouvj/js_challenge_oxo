@@ -1,0 +1,28 @@
+body {
+    background-color: #293034;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+  }
+
+#jeu{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    width: 300px;
+    margin: auto;
+  }
+.case{
+    border: 1px solid white;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
+#recommencer{
+    background-color: rgb(17, 102, 212);
+    color: aliceblue;
+
+}
+#footer{
+    margin: 100px;
+   
+}

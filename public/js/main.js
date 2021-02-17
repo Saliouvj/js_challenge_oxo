@@ -74,7 +74,7 @@ function verifGagne(){
         return
     }
 
-    // CHANGER DE   JOUEUR
+    // CHANGER DE JOUEUR
     joueurActif = joueurActif === "X" ? "O" : "X"
     statut.innerHTML = tourJoueur()
 }

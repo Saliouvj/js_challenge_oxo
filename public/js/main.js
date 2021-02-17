@@ -60,7 +60,7 @@ function verifGagne(){
             break
         }
     }
-    // LORSQU4ON GAGNE
+    // LORSQU'ON GAGNE
     if(tourGagnant){
         statut.innerHTML = gagne()
         jeuActif = false
